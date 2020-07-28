@@ -2,6 +2,7 @@
 <androidx.cardview.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardViewLayout"
     android:layout_width="match_parent"
     android:layout_height="190dp"
     android:clickable="true"
@@ -13,13 +14,15 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
         <ImageView
-            android:id="@+id/imageRecipe"
+            android:id="@+id/cardViewRecipeImage"
             android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
             android:layout_height="160dp"
             android:background="@color/colorPrimaryDark"
             android:scaleType="centerCrop">
         </ImageView>
         <TextView
+            android:id="@+id/cardViewRecipeName"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/RecipeName"

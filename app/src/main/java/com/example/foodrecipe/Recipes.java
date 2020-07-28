@@ -4,9 +4,9 @@ public class Recipes {
     private String recipeIngredients;
     private String recipeMethod;
     private  String recipe;
-    private  String thumbnail;
+    private  int thumbnail;
 
-    public Recipes(String recipeName, String recipeIngredients, String recipeMethod, String recipe, String thumbnail) {
+    public Recipes(String recipeName, String recipeIngredients, String recipeMethod, String recipe, int thumbnail) {
         this.recipeName = recipeName;
         this.recipeIngredients = recipeIngredients;
         this.recipeMethod = recipeMethod;
@@ -30,7 +30,7 @@ public class Recipes {
         return recipe;
     }
 
-    public String getThumbnail() {
+    public int getThumbnail() {
         return thumbnail;
     }
 }
