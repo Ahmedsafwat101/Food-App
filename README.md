@@ -1,7 +1,8 @@
 # Food-App
 # Project 2 - Food Recipe 
 
-**Food Recipe** is an android app that allows building a list and basic food meals and food Ingredients
+**Food Recipe** is an android app that allows building a list and basic food meals and food Ingredients (Offline Version) => Static Data 
+**V2 will be rleased within couple days (Online Version) using internet and API**
 
 Submitted by: **Ahmed Abdelfaheem**
 
