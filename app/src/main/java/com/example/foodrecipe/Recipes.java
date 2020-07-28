@@ -1,5 +1,4 @@
 package com.example.foodrecipe;
-
 public class Recipes {
     private  String recipeName;
     private String recipeIngredients;
